@@ -4,7 +4,7 @@ import React from 'react'
 const Guide = () => {
     return (
         <div> 
-            <div className='max-container padding-container pb-10 xl:pt-32'>
+            <div className='2xl:max-container padding-container pb-10 xl:pt-32'>
                 <div>
                     <Image src="/favicon.ico" alt="" width={50} height={50} className='-translate-x-1'/>
                     <p className="text-xl text-green-50 -translate-y-1 uppercase mb-4">WE ARE HERE FOR YOU</p>
@@ -18,7 +18,7 @@ const Guide = () => {
                     </p>
                 </div>
             </div>
-            <div className='relative w-full'>
+            <div className='relative w-full 2xl:max-container'>
                 <Image 
                     src="/boat.png"
                     alt="boat"
